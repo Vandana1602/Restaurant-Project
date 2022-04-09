@@ -1,0 +1,95 @@
+            
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOT & SOUR RESTAURANT</title>
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+	<script>
+			var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
+	</script>
+</head>
+<body >
+
+	<table>
+		<tr>
+			<td class="navigation">
+				<ul>
+					<br><br>
+					<div class="item">
+						<li><a href="/login" >ORDER NOW</a></li>
+					</div>
+					<hr >
+					<div class="item">
+						<li><a href="/register" >REGISTER</a></li>
+					</div>
+					<hr >
+					<div class="item">
+						<li><a href="/login" >LOG IN</a></li>						
+					</div>
+					<hr >
+					<div class="item">
+						<li><a href="/login" >ABOUT US</a></li>
+					</div>
+					<hr >
+					<div class="item">
+						<li><a href="/login" >CONTACT</a></li>
+					</div>
+					<hr >
+					<div class="item">
+						<li><a href="/login" >HOURS & RESERVATIONS</a></li>
+					</div>
+					<br><br><br><br>
+					<div >
+					  
+					  <p class="copy-right">© 2022 Vandana Kumari     @hot&sour.</p>
+					  
+					</div>
+				</ul>
+				
+			</td>
+			<td >
+				<div class="navigation2">Hot & Sour</div>
+				<div class="n3">Wake up your taste buds</div>
+				<video class="mySlides" width="500" height="300" controls>
+				  <source src="C:\Users\Karan Agrawal\Downloads\videoplayback.mp4" type="video/mp4">
+				</video>
+
+				<video class="mySlides" width="500" height="300" controls>
+				  <source src="C:\Users\Karan Agrawal\Downloads\videoplayback (1).mp4" type="video/mp4">
+				</video>
+
+				<video class="mySlides" width="500" height="300" controls>
+				  <source src="C:\Users\Karan Agrawal\Downloads\videoplayback (2).mp4" type="video/mp4">
+				</video>
+				<button class="button1" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="button2" onclick="plusDivs(+1)">&#10095;</button>
+
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>
+
+
+
+
+  

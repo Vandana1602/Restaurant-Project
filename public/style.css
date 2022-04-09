@@ -1,0 +1,196 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+     background-attachment: fixed;
+      background-size: cover;
+    background-repeat: no-repeat;
+    
+    }
+    
+    img{
+    max-width:100%;
+    height: 100;
+    }
+    ul {
+        border-style: solid;
+        border-color: #CCCCFF;
+      list-style-type: none; /* Remove bullets */
+       padding-top: 50px;
+       padding-left: 20px;
+       padding-right: 20px;
+       padding-bottom: 0px;
+       
+    }
+    hr{
+        border-style: dotted none none none;
+        border-color: grey;
+        width:12%;
+        border-width: 2px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .item{
+        
+        background: rgba(204,204,255,0.4);
+        border-color: #CCCCFF;
+        border-style: solid;
+        
+        font-size: 15px;
+        font-family: "MONTSERRAT";
+       font-weight: bold;
+        margin-right: 20px;
+        text-align: center;
+        padding: 10px 5px 10px 5px;
+    }
+    .item:hover
+    {
+        background-color: white;
+        color:black;
+        font-weight: bold;
+        border-style: dashed;
+        border-color: black;
+    }
+    .navigation2{
+        font-family: 'Sacramento';
+        font-style: italic;
+        color: #CCCCFF;
+        font-size: 100px;
+        position: fixed;
+        top: 50px;
+        left:600px;
+    
+    }
+    .n3{
+        font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: white;
+        font-size: 20px;
+        position: fixed;
+        top: 170px;
+        left:900px;
+    
+    }
+    
+    .copy-right{
+      color: white;
+      font-size: 12px;
+      padding-bottom: 0;
+    }
+    .mySlides{
+        position: fixed;
+        bottom: 150px;
+        left: 600px;
+    }
+    .button1{
+        position: fixed;
+         bottom: 320px;
+         left: 580px;
+    }
+    .button2{
+        position: fixed;
+         bottom: 320px;
+         left: 1120px;
+    }
+body{
+background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+ background-attachment: fixed;
+  background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+img{
+max-width:100%;
+height: 100;
+}
+ul {
+	border-style: solid;
+	border-color: #CCCCFF;
+  list-style-type: none; /* Remove bullets */
+   padding-top: 50px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 0px;
+   
+}
+hr{
+	border-style: dotted none none none;
+	border-color: grey;
+	width:12%;
+	border-width: 2px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover
+{
+	color:black;
+	font-weight: bold;
+}
+.item{
+	
+	background: rgba(204,204,255,0.4);
+	border-color: #CCCCFF;
+	border-style: solid;
+	
+	font-size: 15px;
+	font-family: "MONTSERRAT";
+   font-weight: bold;
+	margin-right: 20px;
+	text-align: center;
+	padding: 10px 5px 10px 5px;
+}
+.item:hover
+{
+	background-color: #a2d0c1;
+	color:black;
+	font-weight: bold;
+	border-style: dashed;
+	border-color: black;
+}
+.navigation2{
+	font-family: 'Sacramento';
+	font-style: italic;
+	color: #CCCCFF;
+	font-size: 100px;
+	position: fixed;
+	top: 50px;
+	left:600px;
+
+}
+.n3{
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: white;
+	font-size: 20px;
+	position: fixed;
+	top: 170px;
+	left:900px;
+
+}
+
+.copy-right{
+  color: white;
+  font-size: 12px;
+  padding-bottom: 0;
+}
+.mySlides{
+	position: fixed;
+	bottom: 150px;
+	left: 600px;
+}
+.button1{
+	position: fixed;
+     bottom: 320px;
+     left: 580px;
+}
+.button2{
+	position: fixed;
+     bottom: 320px;
+     left: 1120px;
+}
+.cl
+{
+    display: none;
+}
+    
